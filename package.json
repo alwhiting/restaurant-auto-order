@@ -4,7 +4,7 @@
   "description": "Programming problem; restaurant ordering w/ meal restrictions.",
   "author": "Al Whiting",
   "scripts": {
-    "test": "mocha test/unit/**/*.js",
+    "test": "mocha test/unit/common.js test/unit/**/*.js",
     "feature-test": "./node_modules/.bin/cucumber-js test/features"
   },
   "dependencies": {
