@@ -1,5 +1,5 @@
 /**
- * A restaurant with a name, rating and collection of available meals.
+ * A restaurant with a name, rating, total meals and collection of available restricted meals.
  */
 class Restaurant {
 
@@ -20,7 +20,7 @@ class Restaurant {
   }
 
   /**
-   * @param meals - MealsRequest instance with desired restriction if any and quantity.
+   * @param mealsRequest - MealsRequest instance with desired restriction if any and quantity.
    * @returns quantity of requested meals this restaurant is able to satisfy.
    */
   orderMeals(mealsRequest) {

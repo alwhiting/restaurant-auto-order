@@ -1,5 +1,8 @@
 const RestaurantOrder = require("./restaurant-order");
 
+/**
+ * Takes an OrderRequest and array of Restaurants and generates the best possible orders combination.
+ */
 class AutomatedOrders {
 
   constructor(orderRequest, restaurants) {
