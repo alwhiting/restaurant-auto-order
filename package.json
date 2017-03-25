@@ -1,0 +1,17 @@
+{
+  "name": "restaurant-ordering-problem",
+  "version": "0.0.0",
+  "description": "Programming problem; restaurant ordering w/ meal restrictions.",
+  "author": "Al Whiting",
+  "scripts": {
+    "test": "mocha test/unit/**/*.js",
+    "feature-test": "./node_modules/.bin/cucumber-js test/features"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "cucumber": "^1.3.2",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0",
+    "sinon-chai": "^2.9.0"
+  }
+}

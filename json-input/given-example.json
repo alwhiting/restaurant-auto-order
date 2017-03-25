@@ -1,0 +1,22 @@
+{
+  "order": {
+    "total": 50,
+    "vegetarian": 5,
+    "gluten free": 7
+  },
+  "restaurants": [
+    {
+      "name": "A",
+      "rating": 5,
+      "total": 40,
+      "vegetarian": 4
+    },
+    {
+      "name": "B",
+      "rating": 3,
+      "total": 100,
+      "vegetarian": 20,
+      "gluten free": 20
+    }
+  ]
+}
