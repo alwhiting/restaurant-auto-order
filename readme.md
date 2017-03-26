@@ -42,6 +42,9 @@ That said the command line interface provides basic protection against invalid i
 #### Restricted Meal Types
 I opted to allow any string to be an acceptable meal restriction; not just the values listed in the question. There are pros and cons to this. The obvious pro is that you can restrict based on anything. The downside is it requires some careful handling, especially in Javascript, where using some kind of reserved value for 'unrestricted' meals could result in clever users specifying that value as an input.
 
+#### Restaurant Names
+Assumed to be unique.
+
 ### General Notes
 
 #### Inputs/Outputs and state separation

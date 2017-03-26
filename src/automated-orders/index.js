@@ -17,6 +17,9 @@ class AutomatedOrders {
     this.restaurants = restaurants;
   }
 
+  /**
+   * @returns object/map of restaurant names to RestaurantOrder instances.
+   */
   getBestAvailableMeals() {
     const restaurantOrders = {};
 
