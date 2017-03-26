@@ -25,8 +25,9 @@ class Restaurant {
    */
   orderMeals(mealsRequest) {
     const totalAvailableOfType = this.getAvailableQuantity(mealsRequest);
-    const desiredQuantity = mealsRequest.getRemainingToBeSatisfied();
+    if (totalAvailableOfType === 0) return 0;
 
+    const desiredQuantity = mealsRequest.getRemainingToBeSatisfied();
     if (desiredQuantity > totalAvailableOfType) {
       this.decrementAvailableQuantity(mealsRequest, totalAvailableOfType);
       return totalAvailableOfType;
