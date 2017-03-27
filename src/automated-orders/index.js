@@ -5,6 +5,10 @@ const RestaurantOrder = require("./restaurant-order");
  */
 class AutomatedOrders {
 
+  /**
+   * @param orderRequest - OrderRequest instance which describes the desired complete order.
+   * @param restaurants - Restaurants to be considered for fulfilling the orderRequest.
+   */
   constructor(orderRequest, restaurants) {
     this.orderRequest = orderRequest;
     this.restaurants = restaurants;

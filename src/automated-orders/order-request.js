@@ -15,6 +15,9 @@ class OrderRequest {
     this.mealsRequests.push(new MealsRequest(totalMeals - restrictedMealsTotal));
   }
 
+  /**
+   * @returns true if all MealsRequest instances that make up this OrderRequest are satisfied.
+   */
   isSatisfied() {
     for (let i = 0; i < this.mealsRequests.length; i++) {
       if (!this.mealsRequests[i].isSatisfied()) return false;
